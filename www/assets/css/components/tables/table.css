@@ -1,0 +1,27 @@
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+table thead {
+  background-color: #45B0E5;
+}
+
+table thead tr th {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+table tbody {
+  background-color: #ffffff;
+}
+
+table tbody tr {
+  height: 40px;
+}
+
+table tbody tr th {
+  color: #000000;
+}
+/*# sourceMappingURL=table.css.map */

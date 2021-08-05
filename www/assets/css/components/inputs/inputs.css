@@ -1,0 +1,302 @@
+.input {
+  border: none;
+  border-bottom: 2px solid #A2ADB8;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
+  font-family: 'Rubik', sans-serif;
+}
+
+.input[type=date], select {
+  color: #A2ADB8;
+}
+
+.input:focus {
+  outline: 0;
+  border-bottom: 2px solid #A2ADB8;
+  -moz-outline-style: none;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+  color: #A2ADB8;
+  font-family: 'Rubik', sans-serif;
+}
+
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+  color: #A2ADB8;
+  font-family: 'Rubik', sans-serif;
+}
+
+input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+  color: #A2ADB8;
+  font-family: 'Rubik', sans-serif;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #A2ADB8;
+  font-family: 'Rubik', sans-serif;
+}
+
+.input.epais {
+  padding-top: 0.75em !important;
+  padding-bottom: 0.75em !important;
+}
+
+.input.tres-epais {
+  padding-top: 1em !important;
+  padding-bottom: 1em !important;
+}
+
+.input.phat {
+  padding-top: 1.25em !important;
+  padding-bottom: 1.25em !important;
+}
+
+.input.rouge-clair {
+  border-bottom: 2px solid #F17171;
+}
+
+.input.rouge-clair:focus {
+  border-bottom: 2px solid #F17171;
+}
+
+.input.rouge {
+  border-bottom: 2px solid #EE4040;
+}
+
+.input.rouge:focus {
+  border-bottom: 2px solid #EE4040;
+}
+
+.input.rouge-fonce {
+  border-bottom: 2px solid #D64545;
+}
+
+.input.rouge-fonce:focus {
+  border-bottom: 2px solid #D64545;
+}
+
+.input.orange-clair {
+  border-bottom: 2px solid #FF0071;
+}
+
+.input.orange-clair:focus {
+  border-bottom: 2px solid #FF0071;
+}
+
+.input.orange {
+  border-bottom: 2px solid #FF884D;
+}
+
+.input.orange:focus {
+  border-bottom: 2px solid #FF884D;
+}
+
+.input.orange-fonce {
+  border-bottom: 2px solid #E57A45;
+}
+
+.input.orange-fonce:focus {
+  border-bottom: 2px solid #E57A45;
+}
+
+.input.jaune-clair {
+  border-bottom: 2px solid #FFDD71;
+}
+
+.input.jaune-clair:focus {
+  border-bottom: 2px solid #FFDD71;
+}
+
+.input.jaune {
+  border-bottom: 2px solid #FFC44D;
+}
+
+.input.jaune:focus {
+  border-bottom: 2px solid #FFC44D;
+}
+
+.input.jaune-fonce {
+  border-bottom: 2px solid #E5B045;
+}
+
+.input.jaune-fonce:focus {
+  border-bottom: 2px solid #E5B045;
+}
+
+.input.vert-clair {
+  border-bottom: 2px solid #A2D471;
+}
+
+.input.vert-clair:focus {
+  border-bottom: 2px solid #A2D471;
+}
+
+.input.vert {
+  border-bottom: 2px solid #8BC94D;
+}
+
+.input.vert:focus {
+  border-bottom: 2px solid #8BC94D;
+}
+
+.input.vert-fonce {
+  border-bottom: 2px solid #7db545;
+}
+
+.input.vert-fonce:focus {
+  border-bottom: 2px solid #7db545;
+}
+
+.input.turquoise-clair {
+  border-bottom: 2px solid #71E2D0;
+}
+
+.input.turquoise-clair:focus {
+  border-bottom: 2px solid #71E2D0;
+}
+
+.input.turquoise {
+  border-bottom: 2px solid #4DDBC4;
+}
+
+.input.turquoise:focus {
+  border-bottom: 2px solid #4DDBC4;
+}
+
+.input.turquoise-fonce {
+  border-bottom: 2px solid #45C5B0;
+}
+
+.input.turquoise-fonce:focus {
+  border-bottom: 2px solid #45C5B0;
+}
+
+.input.bleu-clair {
+  border-bottom: 2px solid #71D0FF;
+}
+
+.input.bleu-clair:focus {
+  border-bottom: 2px solid #71D0FF;
+}
+
+.input.bleu {
+  border-bottom: 2px solid #4DC4FF;
+}
+
+.input.bleu:focus {
+  border-bottom: 2px solid #4DC4FF;
+}
+
+.input.bleu-fonce {
+  border-bottom: 2px solid #45B0E5;
+}
+
+.input.bleu-fonce:focus {
+  border-bottom: 2px solid #45B0E5;
+}
+
+.input.violet-clair {
+  border-bottom: 2px solid #7EA9FF;
+}
+
+.input.violet-clair:focus {
+  border-bottom: 2px solid #7EA9FF;
+}
+
+.input.violet {
+  border-bottom: 2px solid #5E94FF;
+}
+
+.input.violet:focus {
+  border-bottom: 2px solid #5E94FF;
+}
+
+.input.violet-fonce {
+  border-bottom: 2px solid #5485E5;
+}
+
+.input.violet-fonce:focus {
+  border-bottom: 2px solid #5485E5;
+}
+
+.input.mauve-clair {
+  border-bottom: 2px solid #B3BDFF;
+}
+
+.input.mauve-clair:focus {
+  border-bottom: 2px solid #B3BDFF;
+}
+
+.input.mauve {
+  border-bottom: 2px solid #A071FF;
+}
+
+.input.mauve:focus {
+  border-bottom: 2px solid #A071FF;
+}
+
+.input.mauve-fonce {
+  border-bottom: 2px solid #9065E5;
+}
+
+.input.mauve-fonce:focus {
+  border-bottom: 2px solid #9065E5;
+}
+
+.input.rose-clair {
+  border-bottom: 2px solid #FF71B7;
+}
+
+.input.rose-clair:focus {
+  border-bottom: 2px solid #FF71B7;
+}
+
+.input.rose {
+  border-bottom: 2px solid #FF4DA5;
+}
+
+.input.rose:focus {
+  border-bottom: 2px solid #FF4DA5;
+}
+
+.input.rose-fonce {
+  border-bottom: 2px solid #E54594;
+}
+
+.input.rose-fonce:focus {
+  border-bottom: 2px solid #E54594;
+}
+
+.input.gris-clair {
+  border-bottom: 2px solid #A2ADB8;
+}
+
+.input.gris-clair:focus {
+  border-bottom: 2px solid #A2ADB8;
+}
+
+.input.gris {
+  border-bottom: 2px solid #8B98a6;
+}
+
+.input.gris:focus {
+  border-bottom: 2px solid #8B98a6;
+}
+
+.input.gris-fonce {
+  border-bottom: 2px solid #7D8995;
+}
+
+.input.gris-fonce:focus {
+  border-bottom: 2px solid #7D8995;
+}
+
+.input.desactive {
+  border-bottom: 2px solid #e2e6ea;
+  background-color: #f9f9f9;
+}
+/*# sourceMappingURL=inputs.css.map */

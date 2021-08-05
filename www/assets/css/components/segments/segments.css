@@ -1,0 +1,36 @@
+.segment {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-top: 2px solid #ffffff;
+  padding: 25px;
+}
+
+.segment.info {
+  border-top: 2px solid #4DC4FF;
+}
+
+.segment.succes {
+  border-top: 2px solid #8BC94D;
+}
+
+.segment.echec {
+  border-top: 2px solid #EE4040;
+}
+
+.segment.avertissement {
+  border-top: 2px solid #FF884D;
+}
+
+.segment.default {
+  border-top: 2px solid #A2ADB8;
+}
+
+.segment.turquoise {
+  border-top: 2px solid #71E2D0;
+}
+
+.segment.elevated {
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}
+/*# sourceMappingURL=segments.css.map */

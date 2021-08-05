@@ -1,0 +1,189 @@
+@import '../couleurs'
+
+// Style par defaut
+h1,h2,h3,h4,h5,h6,p,a,li
+    font-family: 'Rubik', sans-serif
+    color: $black
+    display: inline
+
+// Taille du texte
+h1
+    font-size: 2.5rem
+h2
+    font-size: 2rem
+h3
+    font-size: 1.375rem
+h4
+    font-size: 1.125rem
+h5
+    font-size: 1rem
+h6
+    font-size: 0.875rem
+p
+    font-size: 1.125rem
+    font-weight: 200
+    line-height: 1.8
+a
+    text-decoration: none
+
+.texte.enormissime
+    font-size: 5rem
+.texte.enorme
+    font-size: 4rem
+.texte.tres-gros
+    font-size: 3rem
+.texte.gros
+    font-size: 2.75rem
+.texte.consequent
+    font-size: 2.5rem
+.texte.moyen
+    font-size: 2rem
+.texte.normal
+    font-size: 1.5rem
+.texte.petit
+    font-size: 1rem
+.texte.tres-petit
+    font-size: .8rem
+.texte.minuscule
+    font-size: .7rem
+.texte.aide
+    font-style: italic
+
+// Style du texte
+.texte.classique
+    font-style: normal
+    text-decoration: none
+.texte.italic
+    font-style: italic
+.texte.souligne
+    text-decoration: underline
+
+.texte.epaisseur-fin
+    font-weight: 300
+.texte.epaisseur-normal
+    font-weight: 400
+.texte.epaisseur-moyen
+    font-weight: 500
+.texte.epaisseur-semi-gras
+    font-weight: 600
+.texte.epaisseur-gras
+    font-weight: 700
+.texte.epaisseur-tres-gras
+    font-weight: 800
+.texte.epaisseur-noir
+    font-weight: 900
+
+.texte.en-majuscule
+    text-transform: uppercase
+.texte.en-minuscule
+    text-transform: lowercase
+
+// Soulignement stylisé
+$gradient-degree: 120deg
+%soulignement-global
+    background-repeat: no-repeat
+    background-size: 100% 0.2em
+    background-position: 0 88%
+.texte.souligne-rouge
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-red 0%, $dark-red 100%)
+.texte.souligne-orange
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-orange 0%, $dark-orange 100%)
+.texte.souligne-jaune
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-yellow 0%, $dark-yellow 100%)
+.texte.souligne-vert
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-green 0%, $dark-green 100%)
+.texte.souligne-turquoise
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-teal 0%, $dark-teal 100%)
+.texte.souligne-bleu
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-blue 0%, $dark-blue 100%)
+.texte.souligne-violet
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-purple 0%, $dark-purple 100%)
+.texte.souligne-rose
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-pink 0%, $dark-pink 100%)
+.texte.souligne-gris
+    @extend %soulignement-global
+    background-image: linear-gradient($gradient-degree, $light-grey 0%, $dark-grey 100%)
+
+// Couleurs des textes
+.texte.rouge-clair
+    color: $light-red
+.texte.rouge
+    color: $red
+.texte.rouge-fonce
+    color: $dark-red
+
+.texte.orange-clair
+    color: $light-orange
+.texte.orange
+    color: $orange
+.texte.orange-fonce
+    color: $dark-orange
+
+.texte.jaune-clair
+    color: $light-yellow
+.texte.jaune
+    color: $yellow
+.texte.jaune-fonce
+    color: $dark-yellow
+
+.texte.vert-clair
+    color: $light-green
+.texte.vert
+    color: $green
+.texte.vert-fonce
+    color: $dark-green
+
+.texte.turquoise-clair
+    color: $light-teal
+.texte.turquoise
+    color: $teal
+.texte.turquoise-fonce
+    color: $dark-teal
+
+.texte.bleu-clair
+    color: $light-blue
+.texte.bleu
+    color: $blue
+.texte.bleu-fonce
+    color: $dark-blue
+
+.texte.violet-clair
+    color: $light-purple
+.texte.violet
+    color: $purple
+.texte.violet-fonce
+    color: $dark-purple
+
+.texte.rose-clair
+    color: $light-pink
+.texte.rose
+    color: $pink
+.texte.rose-fonce
+    color: $dark-pink
+
+.texte.gris-clair
+    color: $light-grey
+.texte.gris
+    color: $grey
+.texte.gris-fonce
+    color: $dark-grey
+
+.texte.noir-clair
+    color: $light-black
+.texte.noir
+    color: $black
+.texte.blanc
+    color: $white
+.texte.miette-de-pain
+    color: $light-black
+    margin-left: 0.5em
+    text-decoration: underline
+    font-style: italic

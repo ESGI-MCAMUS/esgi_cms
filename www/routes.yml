@@ -1,0 +1,176 @@
+/:
+  controller: Main
+  action: default
+
+/categories:
+  controller: Categories
+  action: display
+
+/404:
+  controller: Main
+  action: page404
+
+# Tout ce qui est lié à l'utilisateur
+/utilisateur:
+  controller: User
+  action: default
+
+/search/wishlist/add:
+  controller: User
+  action: ajoutWishlistSearch
+
+/search/basket/add:
+  controller: User
+  action: ajoutPanierSearch
+
+/utilisateur/wishlist:
+  controller: User
+  action: showWishlist
+
+/utilisateur/wishlist/add:
+  controller: User
+  action: addWishlist
+
+/utilisateur/basket/add:
+  controller: User
+  action: addBasket
+
+/utilisateur/order:
+  controller: User
+  action: showOrder
+
+/utilisateur/panier:
+  controller: User
+  action: showPannier
+
+/utilisateur/checkout:
+  controller: User
+  action: checkout
+
+/utilisateur/checkout/success:
+  controller: User
+  action: checkoutSuccess
+
+/utilisateur/checkout/failed:
+  controller: User
+  action: checkoutFailed
+
+/ajout-d-un-utilisateur:
+  controller: User
+  action: add
+
+/s-inscrire:
+  controller: User
+  action: register
+
+/se-connecter:
+  controller: User
+  action: connect
+
+/forgotten:
+  controller: User
+  action: forgottenPwdShow
+
+/forgotten-action:
+  controller: User
+  action: forgottenPwdShow
+
+/update-pwd:
+  controller: User
+  action: updatePassword
+
+/afficher-un-utilisateur:
+  controller: User
+  action: show
+
+/afficher-les-utilisateurs:
+  controller: User
+  action: showAll
+
+/deconnexion:
+  controller: User
+  action: deconnexion
+
+/admin:
+  controller: User
+  action: statistiques
+
+/fetch/categories:
+  controller: Categories
+  action: fetchInformations
+
+/fetch/livres:
+  controller: Books
+  action: fetchInformations
+
+/admin/users:
+  controller: User
+  action: manageUsers
+
+/admin/user/edit:
+  controller: User
+  action: editUserAttribute
+
+# Langue du site
+/admin/lang:
+  controller: User
+  action: editLang
+
+# Les livres
+/admin/books:
+  controller: Books
+  action: manageBooks
+
+/admin/books/editor:
+  controller: Books
+  action: editBooks
+
+/admin/book/add:
+  controller: Books
+  action: addBook
+
+/admin/book/edit:
+  controller: Books
+  action: editBook
+
+/user/comment:
+  controller: Books
+  action: postComment
+
+/search:
+  controller: Books
+  action: search
+
+# Catégories
+/admin/categories:
+  controller: Categories
+  action: manageCategories
+
+/admin/categories/edit:
+  controller: Categories
+  action: editCategorie
+
+/admin/delete:
+  controller: User
+  action: delete
+
+/admin/delete/item-pannier:
+  controller: User
+  action: deleteItem
+
+/admin/soft-delete:
+  controller: User
+  action: softDelete
+
+# Auteurs
+/admin/authors:
+  controller: Authors
+  action: manageAuthors
+
+/admin/authors/add:
+  controller: Authors
+  action: addAuthors
+
+/admin/authors/edit:
+  controller: Authors
+  action: editAuthor

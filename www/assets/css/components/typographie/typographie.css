@@ -1,0 +1,302 @@
+h1, h2, h3, h4, h5, h6, p, a, li {
+  font-family: 'Rubik', sans-serif;
+  color: #000000;
+  display: inline;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.375rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  font-size: 1.125rem;
+  font-weight: 200;
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+}
+
+.texte.enormissime {
+  font-size: 5rem;
+}
+
+.texte.enorme {
+  font-size: 4rem;
+}
+
+.texte.tres-gros {
+  font-size: 3rem;
+}
+
+.texte.gros {
+  font-size: 2.75rem;
+}
+
+.texte.consequent {
+  font-size: 2.5rem;
+}
+
+.texte.moyen {
+  font-size: 2rem;
+}
+
+.texte.normal {
+  font-size: 1.5rem;
+}
+
+.texte.petit {
+  font-size: 1rem;
+}
+
+.texte.tres-petit {
+  font-size: .8rem;
+}
+
+.texte.minuscule {
+  font-size: .7rem;
+}
+
+.texte.aide {
+  font-style: italic;
+}
+
+.texte.classique {
+  font-style: normal;
+  text-decoration: none;
+}
+
+.texte.italic {
+  font-style: italic;
+}
+
+.texte.souligne {
+  text-decoration: underline;
+}
+
+.texte.epaisseur-fin {
+  font-weight: 300;
+}
+
+.texte.epaisseur-normal {
+  font-weight: 400;
+}
+
+.texte.epaisseur-moyen {
+  font-weight: 500;
+}
+
+.texte.epaisseur-semi-gras {
+  font-weight: 600;
+}
+
+.texte.epaisseur-gras {
+  font-weight: 700;
+}
+
+.texte.epaisseur-tres-gras {
+  font-weight: 800;
+}
+
+.texte.epaisseur-noir {
+  font-weight: 900;
+}
+
+.texte.en-majuscule {
+  text-transform: uppercase;
+}
+
+.texte.en-minuscule {
+  text-transform: lowercase;
+}
+
+.texte.souligne-rouge, .texte.souligne-orange, .texte.souligne-jaune, .texte.souligne-vert, .texte.souligne-turquoise, .texte.souligne-bleu, .texte.souligne-violet, .texte.souligne-rose, .texte.souligne-gris {
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+}
+
+.texte.souligne-rouge {
+  background-image: linear-gradient(120deg, #F17171 0%, #D64545 100%);
+}
+
+.texte.souligne-orange {
+  background-image: linear-gradient(120deg, #FF0071 0%, #E57A45 100%);
+}
+
+.texte.souligne-jaune {
+  background-image: linear-gradient(120deg, #FFDD71 0%, #E5B045 100%);
+}
+
+.texte.souligne-vert {
+  background-image: linear-gradient(120deg, #A2D471 0%, #7db545 100%);
+}
+
+.texte.souligne-turquoise {
+  background-image: linear-gradient(120deg, #71E2D0 0%, #45C5B0 100%);
+}
+
+.texte.souligne-bleu {
+  background-image: linear-gradient(120deg, #71D0FF 0%, #45B0E5 100%);
+}
+
+.texte.souligne-violet {
+  background-image: linear-gradient(120deg, #B3BDFF 0%, #9065E5 100%);
+}
+
+.texte.souligne-rose {
+  background-image: linear-gradient(120deg, #FF71B7 0%, #E54594 100%);
+}
+
+.texte.souligne-gris {
+  background-image: linear-gradient(120deg, #A2ADB8 0%, #7D8995 100%);
+}
+
+.texte.rouge-clair {
+  color: #F17171;
+}
+
+.texte.rouge {
+  color: #EE4040;
+}
+
+.texte.rouge-fonce {
+  color: #D64545;
+}
+
+.texte.orange-clair {
+  color: #FF0071;
+}
+
+.texte.orange {
+  color: #FF884D;
+}
+
+.texte.orange-fonce {
+  color: #E57A45;
+}
+
+.texte.jaune-clair {
+  color: #FFDD71;
+}
+
+.texte.jaune {
+  color: #FFC44D;
+}
+
+.texte.jaune-fonce {
+  color: #E5B045;
+}
+
+.texte.vert-clair {
+  color: #A2D471;
+}
+
+.texte.vert {
+  color: #8BC94D;
+}
+
+.texte.vert-fonce {
+  color: #7db545;
+}
+
+.texte.turquoise-clair {
+  color: #71E2D0;
+}
+
+.texte.turquoise {
+  color: #4DDBC4;
+}
+
+.texte.turquoise-fonce {
+  color: #45C5B0;
+}
+
+.texte.bleu-clair {
+  color: #71D0FF;
+}
+
+.texte.bleu {
+  color: #4DC4FF;
+}
+
+.texte.bleu-fonce {
+  color: #45B0E5;
+}
+
+.texte.violet-clair {
+  color: #B3BDFF;
+}
+
+.texte.violet {
+  color: #A071FF;
+}
+
+.texte.violet-fonce {
+  color: #9065E5;
+}
+
+.texte.rose-clair {
+  color: #FF71B7;
+}
+
+.texte.rose {
+  color: #FF4DA5;
+}
+
+.texte.rose-fonce {
+  color: #E54594;
+}
+
+.texte.gris-clair {
+  color: #A2ADB8;
+}
+
+.texte.gris {
+  color: #8B98a6;
+}
+
+.texte.gris-fonce {
+  color: #7D8995;
+}
+
+.texte.noir-clair {
+  color: #212121;
+}
+
+.texte.noir {
+  color: #000000;
+}
+
+.texte.blanc {
+  color: #ffffff;
+}
+
+.texte.miette-de-pain {
+  color: #212121;
+  margin-left: 0.5em;
+  text-decoration: underline;
+  font-style: italic;
+}
+/*# sourceMappingURL=typographie.css.map */

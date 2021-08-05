@@ -1,0 +1,40 @@
+@import '../couleurs'
+
+// Segment properties
+$radius: 10px
+$border: 2px
+$segment-margin: 25px
+
+// Elevated properties
+$blur: 15px
+$spread: 0px
+$opacity: .1
+
+.segment
+    background-color: $white
+    border-radius: $radius
+    border-top: $border solid $white
+    padding: $segment-margin
+
+.segment.info
+    border-top: $border solid $blue
+
+.segment.succes
+    border-top: $border solid $green
+
+.segment.echec
+    border-top: $border solid $red
+
+.segment.avertissement
+    border-top: $border solid $orange
+
+.segment.default
+    border-top: $border solid $light-grey
+
+.segment.turquoise
+    border-top: $border solid $light-teal
+
+.segment.elevated
+    -webkit-box-shadow: 0px 0px $blur $spread rgba(0,0,0,$opacity)
+    -moz-box-shadow: 0px 0px $blur $spread rgba(0,0,0,$opacity)
+    box-shadow: 0px 0px $blur $spread rgba(0,0,0,$opacity)
